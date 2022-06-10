@@ -1,0 +1,458 @@
+/*Allgemeines Styling*/
+body {
+    background-color: rgba(30, 31, 38, 1);
+}
+
+.h2 {
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size:2.08vw;
+    font-family:federo;
+    letter-spacing: 0.2em;
+}
+
+h3 {
+    color:white;
+    font-size: 1.3vw;
+    font-family: federo;
+    letter-spacing: 0.2em;
+    margin-bottom: 5.9%;
+}
+
+p {
+    color: white;
+    font-family: federo;
+    letter-spacing: 0.2em;
+}
+/*Header Styling*/
+
+header {
+    width: 100%;
+    height: 26.2vw;
+    background-image: url("../images/header_banner.jpg");
+    background-position: 0% 55%;
+    font-family: felipa;
+    text-align: center;
+    background-size: cover;
+    border-bottom: 1px solid white;
+}
+
+.h1 {
+    padding: 4.83% 0px;
+    padding-bottom: 5.727%;
+}
+
+header h1 {
+    display:inline-block;
+    font-size: 3.125vw;
+    color: #FFE4E4;
+    letter-spacing: 0.5em;
+    padding: 1.05%;
+    border:1px solid #FFE4E4;
+    background-color: rgba(17, 17, 17, 0.71);
+}
+
+header span {
+    letter-spacing: 0.1em;
+}
+
+header ul {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 4.0294% 0px;
+    width: 64%;
+    
+    
+}
+
+header li {
+    display: inline-flex;
+    
+    font-size:30px;
+    padding: 0.41% 0.82%;
+    margin: 0.19% 4.4%;
+    border: 1px solid white;
+    background-color:rgba(17, 17, 17, 0.71);
+}
+
+header li:hover {
+    border: 1px solid rgba(0,0,0,0);
+    padding:0.6% 1.1%;
+    margin:0px 4.12%;
+}
+
+header a {
+    color: white;
+    letter-spacing: 0.2em;
+    font-size:1.56vw;
+}
+
+
+@media only screen and (max-width: 1160px) {
+
+    header {
+        height: 304.917px;
+    }
+
+    header h1 {
+        font-size: 36.25px;
+        padding: 12.1667px;
+    }
+
+    .h1 {
+        padding: 56.0167px 0px 66.4167px;
+    }
+
+    header a {
+        font-size: 19px;
+    }
+
+    header ul {
+        width: 800px;
+        padding: 46.7333px 0px;
+    }
+
+    header li {
+        margin: 1.51667px 35.2px;
+        padding: 3.26667px 6.55px;
+    }
+}
+
+
+/*"We are Riyoukou" styling*/
+
+.identity {
+    border: 1px solid rgba(255,255,255,0.5);
+    width: 70.21%;
+    height: 64.7399%;
+    margin: 3.23% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.identity-text {
+    width: 49.03%;
+    text-align: center;
+}
+
+.h2 {
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+
+.identity .title {
+    margin: 2.596% 0px 6.305%;
+    height: fit-content;
+}
+
+.identity-text .subtitle {
+    margin: 9.68% 0px 0px;
+    height: fit-content;
+}
+
+h2 {
+    color: white;
+    font-size:2.08vw;
+    font-family:federo;
+    letter-spacing: 0.2em;
+}
+
+.identity .text {
+    color:white;
+    font-size: 1.3vw;
+    font-family: federo;
+    letter-spacing: 0.2em;
+    margin: 14.52% 0px;
+}
+
+.identity .image-streetware {
+    width: 42.73%;
+    height: 22.239vw;
+    background-image: url("../images/Streetware.jpg");
+    background-size: cover;
+    margin-bottom: 6.676%;
+}
+
+.identity .image-cotton {
+    width: 42.73%;
+    height: 22.239vw;
+    background-image: url("../images/sustainable_resources.jpg");
+    background-size: cover;
+    margin-bottom: 6.676%;
+}
+
+
+@media only screen and (max-width: 1160px) {
+
+    .identity {
+        width: 816.433px;
+        height: 723.7px;
+        margin: 3.23% auto;
+    }
+
+    .identity h2, .products .h2 h2, .team .title h2 {
+        font-size:24.1167px;
+    }
+    
+    .identity .text {
+        margin: 14.52% 0px;
+        font-size: 15.0667px;
+    }
+    
+    .identity .image-streetware {
+        width: 42.73%;
+        height: 257.967px;
+        margin-bottom: 6.676%;
+    }
+    
+    .identity .image-cotton {
+        width: 42.73%;
+        height: 257.967px;
+        margin-bottom: 6.676%;
+    }
+}
+
+
+/*Products styling*/
+
+.products {
+    width: 79.87%;
+    border: 1px solid rgba(255,255,255,0.5);
+    margin: 0px auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.products .title {
+    margin: 2.596% 0px 6.305%;
+    height: fit-content;
+    
+}
+
+/*
+.product {
+    width: 27.23%;
+    height: 36.86%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+*/
+
+.product-name {
+    text-align:center;
+}
+
+.products a {
+    width: 27.23%;
+    height: 29.22vw;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 8.355%;
+}
+
+.product {
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.product-name {
+    width:100%;
+    height: 16.07%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 11, 11, 0.85);
+    border: 1px solid white;
+    transition: height 0.6s, background-color 0.6s;
+}
+
+.product-name:hover {
+    padding:0px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.95);
+    transition: height 0.6s, background-color 0.6s;
+}
+
+.hoodies {
+    background-image: url("../images/red_hoodie.jpg");
+    background-size:cover;
+}
+
+.pants {
+    background-image: url("../images/strip_pants.jpg");
+    background-size:cover;
+}
+
+.neon-jackets {
+    background-image: url("../images/neon_jackets.jpg");
+    background-size: cover;
+}
+
+.windbreaker {
+    background-image: url("../images/windbreaker.jpg");
+    background-size: cover;
+}
+
+.knit-jackets {
+    background-image: url("../images/light-jacket.jpg");
+    background-size: cover;
+}
+
+.caps {
+    background-image: url("../images/cap.jpg");
+    background-size: cover;
+}
+
+
+@media only screen and (max-width:1024px) {
+
+    .products {
+        width: 819.867px;
+    }
+
+    .products a {
+        height: 299.2px;
+    }
+
+    .product-name h2 {
+        font-size: 21.2833px
+    }
+}
+
+
+
+/*Team styling*/
+
+.team {
+   border: 1px solid rgba(255,255,255,0.5);
+   display: flex;
+   justify-content: space-around;
+   width: 84.6%;
+   margin: 9.88% auto;
+   flex-wrap: wrap;
+}
+
+.team .content {
+    text-align: center;
+}
+
+.team .title {
+    margin: 1.49% 0px 3.85%;
+}
+
+.team .subtitle {
+    margin: 4.97% 0px;
+}
+
+.image {
+    width: 100%;
+    height: 22.24vw;
+    background-size: cover;
+}
+
+.team-member {
+    width: 21.242%;
+}
+
+.founder {
+    background-image: url("../images/Founder_weeb.jpg");
+}
+
+.dad {
+    background-image: url("../images/Dad_diver.jpg");
+}
+
+.designer {
+    background-image: url("../images/Designer_Fiverr.jpg");
+}
+
+.marketing {
+    background-image: url("../images/marketing-lead.jpg");
+    background-position: center;
+}
+
+
+@media only screen and (max-width:970px) {
+    .team {
+        width: 822.617px;
+    }
+
+    .team-member {
+        width: 174.3px;
+    }
+
+    .team .image {
+        height: 215.717px;
+    }
+
+    .team .subtitle {
+        font-size: 20.1667px;
+    }
+
+    h3 {
+        font-size: 12.6px;
+    }
+}
+
+
+/*Footer styling*/
+
+footer {
+    width:100%;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-header {
+    font-size: 2.6vw;
+    color:white;
+    letter-spacing: 0.2em;
+    margin-top: 4.94%;
+}
+
+.adress {
+    font-size: 1.56vw;
+    margin: 1.734% 0px;
+}
+
+.email {
+    font-size: 1.3vw;
+    margin-bottom: 6.516%;
+}
+
+
+
+@media only screen and (max-width:1160px) {
+    .footer-header {
+        font-size: 30.15px;
+    }
+
+    .adress {
+        font-size: 18.0833px;
+    }
+
+    .email {
+        font-size: 15.0667px;
+    }
+}
